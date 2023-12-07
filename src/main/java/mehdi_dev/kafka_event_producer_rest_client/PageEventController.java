@@ -1,5 +1,5 @@
-package ma.enset.kafka_event_producer_rest_client;
-import ma.enset.entities.PageEvent;
+package mehdi_dev.kafka_event_producer_rest_client;
+import mehdi_dev.entities.PageEvent;
 import org.springframework.cloud.stream.binder.kafka.streams.InteractiveQueryService;
 import org.springframework.cloud.stream.function.StreamBridge;
 import org.springframework.web.bind.annotation.GetMapping;

@@ -1,4 +1,4 @@
-package ma.enset.kafka_streams;
+package mehdi_dev.kafka_streams;
 
 import org.apache.kafka.streams.KeyValue;
 import org.apache.kafka.streams.kstream.Windowed;

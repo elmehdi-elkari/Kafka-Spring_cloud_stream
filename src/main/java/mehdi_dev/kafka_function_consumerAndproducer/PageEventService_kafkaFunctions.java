@@ -1,6 +1,6 @@
-package ma.enset.kafka_function_consumerAndproducer;
+package mehdi_dev.kafka_function_consumerAndproducer;
 
-import ma.enset.entities.PageEvent;
+import mehdi_dev.entities.PageEvent;
 import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Service;
 

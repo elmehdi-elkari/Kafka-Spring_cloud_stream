@@ -1,4 +1,4 @@
-package ma.enset.entities;
+package mehdi_dev.entities;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

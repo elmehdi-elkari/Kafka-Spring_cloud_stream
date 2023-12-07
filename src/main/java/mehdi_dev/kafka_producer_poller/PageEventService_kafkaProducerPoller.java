@@ -1,22 +1,11 @@
-package ma.enset.kafka_producer_poller;
+package mehdi_dev.kafka_producer_poller;
 
-import ma.enset.entities.PageEvent;
-import org.apache.kafka.streams.KeyValue;
-import org.apache.kafka.streams.kstream.KStream;
+import mehdi_dev.entities.PageEvent;
 import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Service;
 
-import ma.enset.entities.PageEvent;
-import org.apache.kafka.common.serialization.Serdes;
-import org.apache.kafka.streams.KeyValue;
-import org.apache.kafka.streams.kstream.Grouped;
-import org.apache.kafka.streams.kstream.KStream;
-import org.apache.kafka.streams.kstream.Materialized;
-import org.apache.kafka.streams.kstream.TimeWindows;
-
 import java.util.Date;
 import java.util.Random;
-import java.util.function.Function;
 import java.util.function.Supplier;
 
 @Service

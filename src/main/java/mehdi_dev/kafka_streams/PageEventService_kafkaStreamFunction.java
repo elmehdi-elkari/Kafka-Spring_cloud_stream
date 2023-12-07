@@ -1,6 +1,6 @@
-package ma.enset.kafka_streams;
+package mehdi_dev.kafka_streams;
 
-import ma.enset.entities.PageEvent;
+import mehdi_dev.entities.PageEvent;
 import org.apache.kafka.common.serialization.Serdes;
 import org.apache.kafka.streams.KeyValue;
 import org.apache.kafka.streams.kstream.Grouped;
